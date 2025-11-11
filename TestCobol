@@ -25,6 +25,7 @@
 
        01 W-CONVERSIONS.
            05  W-PMT-CNVRT     PIC X(12).
+           05  W-PMT-CNVRT1    PIC X(10).
            05  W-PMT-NUMBER
                REDEFINES W-PMT-CNVRT
                                PIC 9(10)V99.
