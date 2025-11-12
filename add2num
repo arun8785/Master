@@ -11,4 +11,5 @@
          MAIN-LOGIC.
              ADD NUM1 TO NUM2 GIVING RESULT-SUM.
              DISPLAY "The sum of " NUM1 " and " NUM2 " is: " RESULT-SUM.
+             DISPLAY "The number 1" NUM1.
              STOP RUN.
