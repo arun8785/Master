@@ -5,6 +5,7 @@
          WORKING-STORAGE SECTION.
          01  NUM1            PIC 9(3) VALUE 100.
          01  NUM2            PIC 9(3) VALUE 250.
+         01  NUM3            PIC 9(3) VALUE 350.
          01  RESULT-SUM      PIC 9(4).
 
          PROCEDURE DIVISION.
@@ -12,5 +13,6 @@
              ADD NUM1 TO NUM2 GIVING RESULT-SUM.
              DISPLAY "The sum of " NUM1 " and " NUM2 " is: " RESULT-SUM.
              DISPLAY "The number 1" NUM1.
-             DISPLAY "The number 1" NUM2.
+             DISPLAY "The number 2" NUM2.
+             DISPLAY "The number 3" NUM3.
              STOP RUN.
