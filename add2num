@@ -33,7 +33,7 @@
           05 WS-EMP-GENDER      PIC X(01).
           05 WS-EMP-LOC         PIC X(03).
           05 WS-EMP-DESG        PIC X(15).
-          05 WS-EMP-SALARY      PIC X(14).
+          05 WS-EMP-SALARY      PIC X(15).
           05 FILLER             PIC X(24).
 
        01 WS-EMP-STATUSI  PIC 9(2).
