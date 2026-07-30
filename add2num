@@ -1,5 +1,19 @@
-         IDENTIFICATION DIVISION.
-         PROGRAM-ID. ADD-NUMBERS.
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID COBOL011.
+      ******************************************************************
+      * READ EMPLOYEE FILE AND WRITE INTO ANOTHER FILE               ***
+      ******************************************************************
+       ENVIRONMENT DIVISION.
+       INPUT-OUTPUT SECTION.
+       FILE-CONTROL.
+           SELECT EMPL-FILE-INPUT ASSIGN TO EMPLI
+           FILE STATUS IS WS-EMP-STATUSI.
+
+           SELECT EMPL-FILE-OUTPUT ASSIGN TO EMPLO
+           FILE STATUS IS WS-EMP-STATUSO.
+
+           SELECT EMPL-FILE-OUTPUTR ASSIGN TO EMPLR
+           FILE STATUS IS WS-EMP-STATUSR.
 
          DATA DIVISION.
          WORKING-STORAGE SECTION.
@@ -7,7 +21,6 @@
          01  NUM2            PIC 9(3) VALUE 250.
          01  NUM3            PIC 9(3) VALUE 350.
          01  RESULT-SUM      PIC 9(4).
-         01  RESULT-ADD      PIC 9(5).
 
          PROCEDURE DIVISION.
          MAIN-LOGIC.
