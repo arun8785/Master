@@ -24,7 +24,7 @@
            03 CALLED-PROGRAM-TABLE
                         REDEFINES STATIC-CALLED-PROGRAM-TABLE
                         OCCURS 3 TIMES.
-              05 CALLED-PROGRAM-NAME PIC X(8).
+              05 CALLED-PROGRAM-NAME PIC X(9).
 
        COPY EPSPDATA.
 
